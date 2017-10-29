@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lissajous</title>
+	<link rel="shortcut icon" href="../img/favicon.ico" >
+<meta name="viewport" 
+  content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="files/index.css">
+    <script src="lissajous.js"></script>
+	<style>
+	canvas {
+   		border:1px solid #d3d3d3;
+   		background-color: black;
+	}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 90%;
+}
+a:link {
+    color: gray;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: gray;
+}
+	</style>
+
+</head>
+
+<body onload="startGame()" bgcolor="#1d1f21">
+
+Parameters that can be changed in url:
+<br>
+f - <strong>f</strong>ramerate
+<br>
+d - <strong>d</strong>rag
+<br>
+a - starting <strong>a</strong>ngle
+<br>
+r - first distance (description in image)
+
+<br>
+<br>
+<a href="?f=30&d=0.1&a=40&r=0.96">?f=30&d=0.1&a=40&r=0.96 (default)</a>
+<br>
+<a href="?f=100&d=0&a=40&r=0.96">?f=100&d=0&a=40&r=0.96</a>
+<br>
+<a href="?f=100&d=0.1&a=40&r=0.8">?f=100&d=0.1&a=40&r=0.8</a>
+<br>
+<a href="?f=100&d=0.1&a=40&r=0.6">?f=100&d=0.1&a=40&r=0.6</a>
+<br>
+<a href="?f=100&d=0.04&a=40&r=0.51">?f=100&d=0.04&a=40&r=0.51</a>
+<br>
+<a href="?f=100&d=0.1&a=40&r=0.5">?f=100&d=0.1&a=40&r=0.5</a>
+<br>
+<a href="?f=100&d=0.1&a=40&r=0.2">?f=100&d=0.1&a=40&r=0.2</a>
+
+<br>
+<img src='lissajous.jpeg'>
+
+
+</body>
+</html>
